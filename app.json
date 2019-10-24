@@ -1,0 +1,46 @@
+
+{
+  "pages": [
+    "pages/index/index",
+    "pages/paihang/paihang",
+    "pages/mine/mine"
+  ],
+  
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "孙烨圣计步器",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "imgs/bushu-s.png",
+        "iconPath": "imgs/bushu.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "imgs/paihangbang3-s.png",
+        "iconPath": "imgs/paihangbang3.png",
+        "pagePath": "pages/paihang/paihang",
+        "text": "排行榜"
+      },
+      {
+        "selectedIconPath": "imgs/tese-s.png",
+        "iconPath": "imgs/tese.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+
+
+
+  "sitemapLocation": "sitemap.json"
+}
+
+

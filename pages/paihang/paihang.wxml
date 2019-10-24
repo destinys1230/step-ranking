@@ -1,0 +1,18 @@
+
+<!-- 向左滑动删除功能 -->
+<view class="item-box">
+  <view class="items">
+    <view wx:for="{{list}}"  wx:key="{{index}}"  class="item">
+     
+      <i>{{item.rank}}</i>
+      <image class="item-icon" mode="widthFix" src="{{item.icon}}"></image>
+       <i> {{item.name}}</i>
+      <span class="item-data">
+    
+       <i class="rankpace"> {{item.pace}}</i>
+        <!-- <span class="rankxin">{{item.xin}}</span> -->
+      </span>
+      
+    </view>
+  </view>
+</view>
